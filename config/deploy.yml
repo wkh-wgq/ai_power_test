@@ -20,6 +20,8 @@ servers:
 # proxy:
 #   ssl: true
 #   host: 172.16.100.22
+#   app_port: 3040
+proxy: false
 
 # Credentials for your image host.
 registry:
