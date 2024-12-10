@@ -7,7 +7,9 @@ image: wangkaihua/ai_power_test
 # Deploy to these servers.
 servers:
   web:
-    - 172.16.100.22
+    hosts:
+      - 172.16.100.22
+    proxy: false
   # job:
   #   hosts:
   #     - 192.168.0.1
@@ -21,7 +23,6 @@ servers:
 #   ssl: true
 #   host: 172.16.100.22
 #   app_port: 3040
-proxy: false
 
 # Credentials for your image host.
 registry:
