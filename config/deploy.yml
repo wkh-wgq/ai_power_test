@@ -7,7 +7,8 @@ image: wangkaihua/ai_power_test
 # Deploy to these servers.
 servers:
   web:
-    host: 172.16.100.22
+    hosts: 
+      - 172.16.100.22
     proxy: false
   # job:
   #   hosts:
