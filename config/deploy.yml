@@ -24,6 +24,11 @@ proxy:
   host: 172.16.100.22
   app_port: 3040
 
+  healthcheck:
+    interval: 3
+    path: /health
+    timeout: 30
+
 # Credentials for your image host.
 registry:
   # Specify the registry server, if you're not using Docker Hub
